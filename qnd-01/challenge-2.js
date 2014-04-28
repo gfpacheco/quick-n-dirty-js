@@ -14,3 +14,6 @@ var addEvents = function() {
 };
 
 // qual é a cagada?
+
+// @gfpacheco
+// At the end of the script the i variable will be number of button tags, and every click will consider that i.

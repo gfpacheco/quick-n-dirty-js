@@ -1,5 +1,20 @@
 var potencia;
 
+// @gfpacheco
+potencia = function(e) {
+    return function(n) {
+        var r = n,
+            i;
+
+        for (i = 1; i < e; i++) {
+            r *= n;
+        }
+
+        return r;
+    };
+};
+//
+
 var quadrado = potencia(2);
 
 console.log(quadrado(2)); // 4

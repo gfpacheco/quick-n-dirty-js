@@ -14,3 +14,6 @@ var foo = function() {
 
 var fn = foo();
 fn(); // wtf?!
+
+// @gfpacheco
+// Functions are defined at parse-time, in this case both declarations are always parsed and the second overrides the first one.

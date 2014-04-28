@@ -15,3 +15,8 @@ function foo() {
 }
 
 foo(); // Qual o retorno?
+
+// @gfpacheco
+// [undefined]
+// Because it's re-declaring the count variable inside foo.
+// The count variable is still undefined while creating the table and the while loop.

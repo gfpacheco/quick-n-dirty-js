@@ -3,6 +3,28 @@
 
 var module; // implementar essa bosta
 
+// @gfpacheco
+module = (function() {
+    var potencia = function(e) {
+        return function(n) {
+            var r = n,
+                i;
+
+            for (i = 1; i < e; i++) {
+                r *= n;
+            }
+
+            return r;
+        };
+    };
+
+    return {
+        quadrado: potencia(2),
+        cubo: potencia(3)
+    };
+})();
+//
+
 console.log(module.quadrado(2)); // 4
 console.log(module.quadrado(3)); // 9
 console.log(module.quadrado(4)); // 16
