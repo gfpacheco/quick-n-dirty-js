@@ -26,6 +26,3 @@ XCounter.prototype.xNext = function() {
 
     return this.count;
 };
-
-var dc = new XCounter(2);
-console.log(dc.xNext());
