@@ -22,7 +22,7 @@ module = (function() {
         quadrado: potencia(2),
         cubo: potencia(3)
     };
-})();
+}());
 //
 
 console.log(module.quadrado(2)); // 4
